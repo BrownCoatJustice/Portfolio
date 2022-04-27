@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100&family=Montserrat:wght@300&display=swap');
+
+
+#wtitle {
+    margin-bottom: -10px;
+    font-family: 'Bitter', serif;
+}
+
+#splash {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
