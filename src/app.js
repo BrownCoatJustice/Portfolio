@@ -1,8 +1,7 @@
+let splash = ["\"Did you know someone tried to make this website in pure CSS. And failed!\"\"I know right, what a doofus.\"", "Her: Centering a div is easy. Me: *Vietnam War Flashbacks*", "Why would you come here?", "I was made in 2022"];
 
 function splashText() {
-    let splash = ["Made out of pure CSS...*puts gun in mouth*", "Her: Centering a div is easy. Me: *Vietnam War Memories*", "Why would you come here?", "I was made in 2022", ""];
-    //              0                       1                       2                                                           3                           4
-    let decider = randomNumber(0, 4)
+    let decider = randomNumber(0, 5)
 
     document.getElementById("splash").innerHTML = splash[decider]
 }
